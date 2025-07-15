@@ -3,23 +3,16 @@ export default function Projects() {
     {
       title: "My Portfolio Website",
       tech: "React, Tailwind, Vite",
-      link: "https://rewatpun.com",
+      link: "https://github.com/rewatpun10/anime-resume",
       desc: "Anime-themed resume site with dark mode and custom styling.",
       color: "bg-pink-100 dark:bg-pink-200",
       icon: "🖥️",
     },
-    {
-      title: "Football Tournament Tracker",
-      tech: "Spring Boot, React",
-      link: "#",
-      desc: "Tracks match stats, group stages, and knockout rounds.",
-      color: "bg-indigo-100 dark:bg-indigo-200",
-      icon: "⚽",
-    },
+
     {
       title: "RosterMate Backend",
       tech: ".NET 8, C#, SQL Server",
-      link: "#",
+      link: "https://github.com/rewatpun10/rostermate",
       desc: "Robust API for staff scheduling with role-based access control and JWT authentication.",
       color: "bg-emerald-100 dark:bg-emerald-200",
       icon: "🛠️",
@@ -27,10 +20,19 @@ export default function Projects() {
     {
       title: "RosterMate Frontend",
       tech: "React, Redux, RTK Query, Tailwind CSS",
-      link: "#",
+      link: "https://github.com/rewatpun10/rostermate-frontend",
       desc: "Responsive frontend for roster scheduling, featuring role-based views and interactive dashboards.",
       color: "bg-cyan-100 dark:bg-cyan-200",
       icon: "📋",
+    },
+
+    {
+      title: "SevenDayPsychology Backend",
+      tech: "Java, Spring Boot, JPA",
+      link: "https://gitlab.com/rewatpun10/sevendaypsychologyserver",
+      desc: "Helps client to book the Appointment",
+      color: "bg-indigo-100 dark:bg-indigo-200",
+      icon: "📅🩺",
     },
   ];
 

@@ -5,6 +5,7 @@ Welcome to my personal developer portfolio — a playful, responsive, and anime-
 ✨ Whether you're here to learn more about my journey as a developer, check out my projects, or just vibe with some animated UI, I'm glad you stopped by!
 
 ## 🚀 Tech Stack
+
 - 🧠 **React** — For building reusable UI components
 - 🎨 **Tailwind CSS** — For utility-first styling and dark mode support
 - ⚡ **Vite** — Blazing-fast dev environment and build tool
@@ -12,6 +13,7 @@ Welcome to my personal developer portfolio — a playful, responsive, and anime-
 - 🪄 **AOS (Animate On Scroll)** — For scroll-triggered magic
 
 ## 📄 What’s Inside?
+
 - Hero section with animated intro and call-to-actions
 - About Me with colorful badges
 - Skills and Projects with hover effects
@@ -19,6 +21,7 @@ Welcome to my personal developer portfolio — a playful, responsive, and anime-
 - Sticky Navbar, floating “Hire Me” button, and smooth scroll
 
 ## 👀 Live Preview
+
 [🔗 View Website Here](https://your-live-site-link.vercel.app) <!-- Replace with your Vercel or GitHub Pages link -->
 
 ---
