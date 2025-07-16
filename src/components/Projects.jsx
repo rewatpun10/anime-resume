@@ -11,7 +11,7 @@ export default function Projects() {
 
     {
       title: "RosterMate Backend",
-      tech: ".NET 8, C#, SQL Server",
+      tech: ".NET 8, C#, CI/CD, Docker, SQL Server",
       link: "https://github.com/rewatpun10/rostermate",
       desc: "Robust API for staff scheduling with role-based access control and JWT authentication.",
       color: "bg-emerald-100 dark:bg-emerald-200",
