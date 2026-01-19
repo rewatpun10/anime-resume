@@ -46,12 +46,12 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
   const handleLinkClick = () => setIsOpen(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/70 dark:bg-gray-900/70 backdrop-blur shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur shadow-sm shadow-slate-900/5">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
         {/* Logo & Dark Mode Toggle */}
         <div className="flex items-center gap-4">
-          <div className="text-xl font-bold text-gray-800 dark:text-white">
+          <div className="text-xl font-bold font-display text-slate-900 dark:text-white">
             🧑‍💻 Rewat
           </div>
 
@@ -59,7 +59,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
           <div
             onClick={() => setDarkMode(!darkMode)}
             className={`w-16 h-8 flex items-center rounded-full p-1 cursor-pointer transition-all duration-500
-      ${darkMode ? "bg-gray-700" : "bg-yellow-300"}`}
+      ${darkMode ? "bg-slate-800" : "bg-slate-200"}`}
           >
             <div
               className={`w-6 h-6 rounded-full shadow-md transform transition-all duration-500 flex items-center justify-center text-xs
@@ -71,15 +71,15 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 text-sm md:text-base font-medium">
+        <ul className="hidden md:flex gap-3 text-sm md:text-base font-semibold">
           {sections.map((section) => (
             <li key={section}>
               <a
                 href={`#${section}`}
-                className={`capitalize transition hover:text-pink-500 ${
+                className={`capitalize transition hover:text-teal-600 px-3 py-1 rounded-full ${
                   active === section
-                    ? "text-pink-600 dark:text-pink-400 font-bold"
-                    : "text-gray-700 dark:text-gray-300"
+                    ? "text-teal-700 dark:text-teal-300 bg-teal-100/70 dark:bg-teal-500/20"
+                    : "text-slate-700 dark:text-slate-300"
                 }`}
               >
                 {section}
@@ -92,7 +92,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-gray-800 dark:text-white focus:outline-none"
+            className="text-slate-900 dark:text-white focus:outline-none"
           >
             {isOpen ? "✖️" : "☰"}
           </button>
@@ -102,16 +102,16 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden px-6 pb-4">
-          <ul className="flex flex-col gap-4 text-base font-medium">
+          <ul className="flex flex-col gap-3 text-base font-semibold">
             {sections.map((section) => (
               <li key={section}>
                 <a
                   href={`#${section}`}
                   onClick={handleLinkClick}
-                  className={`capitalize block transition hover:text-pink-500 ${
+                  className={`capitalize block transition hover:text-teal-600 px-3 py-1 rounded-full ${
                     active === section
-                      ? "text-pink-600 dark:text-pink-400 font-bold"
-                      : "text-gray-700 dark:text-gray-300"
+                      ? "text-teal-700 dark:text-teal-300 bg-teal-100/70 dark:bg-teal-500/20"
+                      : "text-slate-700 dark:text-slate-300"
                   }`}
                 >
                   {section}

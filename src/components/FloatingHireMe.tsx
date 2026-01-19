@@ -25,7 +25,7 @@ export default function FloatingHireMe({ targetRef }) {
           .getElementById("contact")
           ?.scrollIntoView({ behavior: "smooth" });
       }}
-      className="fixed bottom-6 right-6 bg-pink-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-pink-600 transition z-50"
+      className="fixed bottom-6 right-6 bg-slate-900 text-white px-4 py-2 rounded-full shadow-lg shadow-slate-900/20 hover:bg-slate-800 transition z-50"
       data-aos="zoom-in-up"
     >
       📩 Hire Me

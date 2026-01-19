@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        anime: ['"Bungee"', "cursive"],
+        display: ['"Sora"', "sans-serif"],
+        body: ['"Manrope"', "sans-serif"],
       },
     },
   },

@@ -36,7 +36,7 @@
   display: inline-block;
   overflow: hidden;
   white-space: nowrap; /* forces one line (we'll fix this below) */
-  border-right: 2px solid black;
+  border-right: 2px solid currentColor;
   animation: typing 4s steps(60, end) 1, blink 0.7s step-end infinite;
   max-width: 100%;
 }

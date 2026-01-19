@@ -34,7 +34,7 @@ function App() {
   }, []);
 
   return (
-    <div className="font-anime duration-500">
+    <div className="font-body bg-slate-50 text-slate-900 transition-colors duration-500 dark:bg-slate-950 dark:text-slate-100">
       {/* Sections */}
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero hireMeRef={hireMeRef} />
