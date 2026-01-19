@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar";
 import WorkExperience from "./components/WorkExperience";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const hireMeRef = useRef(null);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ function App() {
   }, []);
 
   return (
-    <div className="font-body bg-slate-50 text-slate-900 transition-colors duration-500 dark:bg-slate-950 dark:text-slate-100">
+    <div className="font-body bg-slate-50 text-slate-900 transition-colors duration-500 dark:bg-gradient-to-br dark:from-[#071b2d] dark:via-[#0c243d] dark:to-[#0a1a2d] dark:text-slate-100">
       {/* Sections */}
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero hireMeRef={hireMeRef} />

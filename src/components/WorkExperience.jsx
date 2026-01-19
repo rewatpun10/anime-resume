@@ -5,8 +5,8 @@ export default function WorkExperience() {
       company: "Elysium Digital",
       location: "Canberra, ACT, Australia",
       period: "Sep 2024 – Jun 2025",
-      accent: "bg-teal-400",
-      accentText: "text-teal-600 dark:text-teal-300",
+      accent: "bg-amber-400",
+      accentText: "text-amber-700 dark:text-amber-300",
       bullets: [
         "Developed reusable React + TypeScript components aligned to the GRDC design system, improving UI consistency across multiple research data modules and reducing duplicated frontend code by ~30%, enabling faster delivery of agriculture insights to industry stakeholders.",
 
@@ -27,8 +27,8 @@ export default function WorkExperience() {
       company: "Orion Health",
       location: "Canberra, ACT, Australia",
       period: "Jun 2021 – May 2024",
-      accent: "bg-teal-400",
-      accentText: "text-teal-600 dark:text-teal-300",
+      accent: "bg-amber-400",
+      accentText: "text-amber-700 dark:text-amber-300",
       bullets: [
         "Developed full-stack healthcare features integrating React-based medication administration interfaces with Spring Boot REST endpoints, enabling safer clinical workflows on national EMAR platforms.",
 
@@ -49,8 +49,8 @@ export default function WorkExperience() {
       company: "Smart Data Solutions",
       location: "Nepal (Branch of US-based company)",
       period: "Apr 2017 – May 2018",
-      accent: "bg-teal-400",
-      accentText: "text-teal-600 dark:text-teal-300",
+      accent: "bg-amber-400",
+      accentText: "text-amber-700 dark:text-amber-300",
       bullets: [
         "Built full-stack healthcare insurance portals using Spring Boot and Angular to support claim onboarding and eligibility workflows for insurers and providers, enabling digital self-service in place of manual data handoffs.",
 
@@ -67,8 +67,8 @@ export default function WorkExperience() {
       company: "eSewa Fonepay Pvt Ltd",
       location: "Kathmandu, Nepal",
       period: "Dec 2014 – Mar 2017",
-      accent: "bg-teal-400",
-      accentText: "text-teal-600 dark:text-teal-300",
+      accent: "bg-amber-400",
+      accentText: "text-amber-700 dark:text-amber-300",
       bullets: [
         "Built backend components for Nepal’s first corporate online payment gateway using Spring + MySQL, enabling digital B2B payment transactions and improving financial operational workflows.",
 
@@ -87,20 +87,20 @@ export default function WorkExperience() {
   return (
     <section
       id="experience"
-      className="relative overflow-hidden bg-slate-50 dark:bg-slate-950 py-12 px-6 transition-colors duration-500"
+      className="relative overflow-hidden bg-slate-50 dark:bg-transparent py-12 px-6 transition-colors duration-500"
     >
       <div className="relative max-w-6xl mx-auto">
         <div className="text-center">
           <p className="text-sm uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
             Career Timeline
           </p>
-          <h2 className="mt-3 text-3xl md:text-4xl font-display font-bold text-slate-900 dark:text-white mb-8">
+          <h2 className="mt-3 text-3xl md:text-4xl font-display font-bold text-slate-900 dark:text-slate-100 mb-8">
             Work Experience
           </h2>
         </div>
 
         <div className="relative mt-2">
-          <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-teal-300/60 via-slate-300/60 to-teal-300/60 md:left-1/2"></div>
+          <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-amber-300/60 via-slate-300/60 to-amber-300/60 md:left-1/2"></div>
           <div className="space-y-10">
             {experiences.map((exp, index) => {
               const isLeft = index % 2 === 0;
@@ -122,7 +122,7 @@ export default function WorkExperience() {
                         : "md:col-start-2 md:pl-10"
                     }`}
                   >
-                    <div className="rounded-2xl border border-white/70 bg-white/80 px-6 py-5 shadow-lg shadow-slate-900/5 backdrop-blur transition hover:-translate-y-1 hover:shadow-xl dark:border-white/10 dark:bg-slate-900/60">
+                    <div className="rounded-2xl border border-white/70 bg-white/80 px-6 py-5 shadow-lg shadow-slate-900/5 backdrop-blur transition hover:-translate-y-1 hover:shadow-xl dark:border-white/10 dark:bg-[#0f2740]/80">
                       <div className="flex flex-wrap items-center gap-3">
                         <h3 className="text-lg md:text-xl font-semibold text-slate-900 dark:text-white">
                           {exp.role}
@@ -146,7 +146,7 @@ export default function WorkExperience() {
                       <ul className="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-200">
                         {exp.bullets.map((point, i) => (
                           <li key={i} className="flex items-start gap-3">
-                            <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-700 shadow-[0_0_0_2px_rgba(15,23,42,0.08)] dark:bg-slate-200 dark:shadow-[0_0_0_2px_rgba(148,163,184,0.25)]"></span>
+                            <span className="mt-2.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-slate-700 shadow-[0_0_0_2px_rgba(15,23,42,0.08)] dark:bg-amber-200 dark:shadow-[0_0_0_2px_rgba(251,191,36,0.25)]"></span>
                             <span>{point}</span>
                           </li>
                         ))}

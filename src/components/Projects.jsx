@@ -6,7 +6,7 @@ export default function Projects() {
       link: "https://www.nepalihubaustralia.com",
       desc: "Community-focused app showcasing Nepali restaurants, groceries, consultancies, events, and exchange rates. SEO + meta improvements and mobile-first card layouts. MVP uses static data by design with a roadmap for Node API + MongoDB.",
       color:
-        "bg-white/80 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/80",
+        "bg-white/80 dark:bg-[#0f2740]/70 border border-slate-200/70 dark:border-amber-500/20",
       icon: "🌏",
     },
     {
@@ -15,7 +15,7 @@ export default function Projects() {
       link: "https://github.com/rewatpun10/anime-resume",
       desc: "Anime-themed resume site with dark mode and custom styling.",
       color:
-        "bg-white/80 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/80",
+        "bg-white/80 dark:bg-[#0f2740]/70 border border-slate-200/70 dark:border-amber-500/20",
       icon: "🖥️",
     },
 
@@ -25,7 +25,7 @@ export default function Projects() {
       link: "https://github.com/rewatpun10/rostermate",
       desc: "Robust API for staff scheduling with role-based access control and JWT authentication.",
       color:
-        "bg-white/80 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/80",
+        "bg-white/80 dark:bg-[#0f2740]/70 border border-slate-200/70 dark:border-amber-500/20",
       icon: "🛠️",
     },
     {
@@ -34,7 +34,7 @@ export default function Projects() {
       link: "https://github.com/rewatpun10/rostermate-frontend",
       desc: "Responsive frontend for roster scheduling, featuring role-based views and interactive dashboards.",
       color:
-        "bg-white/80 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/80",
+        "bg-white/80 dark:bg-[#0f2740]/70 border border-slate-200/70 dark:border-amber-500/20",
       icon: "📋",
     },
 
@@ -44,7 +44,7 @@ export default function Projects() {
       link: "https://gitlab.com/rewatpun10/sevendaypsychologyserver",
       desc: "Helps client to book the Appointment",
       color:
-        "bg-white/80 dark:bg-slate-900/70 border border-slate-200/70 dark:border-slate-800/80",
+        "bg-white/80 dark:bg-[#0f2740]/70 border border-slate-200/70 dark:border-amber-500/20",
       icon: "📅🩺",
     },
   ];
@@ -52,10 +52,10 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-12 bg-slate-50 dark:bg-slate-950 text-center transition-colors duration-300"
+      className="py-12 bg-slate-50 dark:bg-transparent text-center transition-colors duration-300"
       data-aos="zoom-in-up"
     >
-      <h2 className="text-3xl md:text-4xl font-display font-bold mb-8 text-slate-900 dark:text-white">
+      <h2 className="text-3xl md:text-4xl font-display font-bold mb-8 text-slate-900 dark:text-slate-100">
         Projects
       </h2>
       <div className="grid gap-6 md:grid-cols-2 px-6 max-w-5xl mx-auto">
@@ -72,7 +72,7 @@ export default function Projects() {
             <p className="mb-4 text-slate-600 dark:text-slate-200">{p.desc}</p>
             <a
               href={p.link}
-              className="text-teal-600 underline hover:text-teal-700 dark:hover:text-teal-300 transition"
+              className="text-amber-700 underline hover:text-amber-800 dark:hover:text-amber-300 transition"
               target="_blank"
               rel="noreferrer"
             >

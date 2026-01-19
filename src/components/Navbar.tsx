@@ -46,7 +46,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
   const handleLinkClick = () => setIsOpen(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur shadow-sm shadow-slate-900/5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-[#071b2d]/80 backdrop-blur shadow-sm shadow-slate-900/10">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
         {/* Logo & Dark Mode Toggle */}
@@ -76,9 +76,9 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
             <li key={section}>
               <a
                 href={`#${section}`}
-                className={`capitalize transition hover:text-teal-600 px-3 py-1 rounded-full ${
+                className={`capitalize transition hover:text-amber-700 dark:hover:text-amber-300 px-3 py-1 rounded-full ${
                   active === section
-                    ? "text-teal-700 dark:text-teal-300 bg-teal-100/70 dark:bg-teal-500/20"
+                    ? "text-amber-800 dark:text-amber-300 bg-amber-200/70 dark:bg-amber-500/20"
                     : "text-slate-700 dark:text-slate-300"
                 }`}
               >
@@ -108,9 +108,9 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
                 <a
                   href={`#${section}`}
                   onClick={handleLinkClick}
-                  className={`capitalize block transition hover:text-teal-600 px-3 py-1 rounded-full ${
+                  className={`capitalize block transition hover:text-amber-700 dark:hover:text-amber-300 px-3 py-1 rounded-full ${
                     active === section
-                      ? "text-teal-700 dark:text-teal-300 bg-teal-100/70 dark:bg-teal-500/20"
+                    ? "text-amber-800 dark:text-amber-300 bg-amber-200/70 dark:bg-amber-500/20"
                       : "text-slate-700 dark:text-slate-300"
                   }`}
                 >
