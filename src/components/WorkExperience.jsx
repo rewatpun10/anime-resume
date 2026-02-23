@@ -2,6 +2,38 @@ export default function WorkExperience() {
   const experiences = [
     {
       role: "Frontend Developer",
+      company: "Fair Technology",
+      location: "Canberra",
+      period: "Sep 2025 – Present",
+      accent: "bg-amber-400",
+      accentText: "text-amber-700 dark:text-amber-300",
+      bullets: [
+        "Project: Online Ordering Platform.",
+
+        "Led frontend architecture setup from scratch using React (TypeScript), establishing scalable feature-based folder structure and reusable component patterns.",
+
+        "Designed and developed modular UI features to support product listing, cart management, and order workflow foundations.",
+
+        "Implemented global state management using Redux Toolkit to manage cart state and shared application state predictably.",
+
+        "Adopted RTK Query for API integration, implementing caching and invalidation strategies to reduce redundant network calls.",
+
+        "Established a contract-first API integration workflow using Swagger (OpenAPI) with RTK Query code generation (codegen:api), auto-generating strongly typed API hooks to enforce backend-frontend schema consistency.",
+
+        "Consumed REST APIs from Azure Function Apps, handling loading states, error management, and response normalization.",
+
+        "Built responsive and accessible UI components using Tailwind CSS, following scalable design principles.",
+
+        "Contributed to backend discussions around Azure architecture and Cosmos DB schema design, aligning frontend data requirements with persistence models.",
+
+        "Implemented performance optimizations such as memoization and selective rendering to prevent unnecessary re-renders during frequent cart updates.",
+
+        "Collaborated in Agile sprints to iteratively deliver features aligned with evolving product roadmap.",
+      ],
+      aos: "fade-right",
+    },
+    {
+      role: "Frontend Developer",
       company: "Elysium Digital",
       location: "Canberra, ACT, Australia",
       period: "Sep 2024 – Jun 2025",

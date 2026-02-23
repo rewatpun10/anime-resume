@@ -44,7 +44,7 @@ export default function Hero({ hireMeRef }) {
             </a>
 
             <a
-              href="/RewatPun_Resume.pdf"
+              href="/RewatPun_CV.pdf"
               download
               className="border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-100 px-6 py-2 rounded-full font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition  animate-bounce-slow"
             >
